@@ -1,6 +1,7 @@
 /*Header style*/
 .header {
-    border-bottom: 1px solid #ececec;
+border-bottom: 1px solid #ececec;
+
 &__container {
         display: flex;
         align-items: center;
@@ -49,6 +50,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+&__site .link:hover,
+&__site .link:focus {
+    color: var(--accent-color);
+}
+
 &__site .link &__link--curren {
     color: var(--accent-color);
 }
@@ -68,10 +74,8 @@ letter-spacing: 0.02em;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav__site .link:hover,
-.nav__site .link:focus,
 & .link:hover,
-&th .link:focus {
+& .link:focus {
     color: var(--accent-color);
 }
 

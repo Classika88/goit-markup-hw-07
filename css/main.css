@@ -271,6 +271,9 @@ img {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.nav__site .link:hover, .nav__site .link:focus {
+  color: var(--accent-color);
+}
 .nav__site .link .nav__link--curren {
   color: var(--accent-color);
 }
@@ -296,8 +299,7 @@ img {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.auth .nav__site .link:hover,
-.auth .nav__site .link:focus, .auth .link:hover, .authth .link:focus {
+.auth .link:hover, .auth .link:focus {
   color: var(--accent-color);
 }
 .auth .list {
@@ -406,7 +408,7 @@ img {
   width: 70px;
   height: 70px;
 }
-.benefits__list .title {
+.benefits .title {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -431,8 +433,7 @@ img {
   /*outline: 2px solid red;
   outline-offset: -2px;*/
 }
-.examples .title,
-.examples .team .title {
+.examples .title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -456,6 +457,11 @@ img {
 /*Team section*/
 .team {
   background-color: #f5f4fa;
+}
+.team .title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .team .list {
   display: -webkit-box;

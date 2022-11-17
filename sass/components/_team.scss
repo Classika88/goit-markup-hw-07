@@ -2,6 +2,12 @@
 .team {
     background-color: #f5f4fa;
 
+& .title {
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+}
+
 & .list {
         display: flex;
         flex-wrap: wrap;
